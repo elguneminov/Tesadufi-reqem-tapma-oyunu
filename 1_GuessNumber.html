@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rəqəm tapma oyunu </title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body >
+
+    <h1>Rəqəmi tapın</h1>
+
+    <p>1 ilə 10 arasında təsadüfi bir rəqəm daxil edin. Oyun sizin təxmininizin yüksək və ya aşağı olduğunu deyir. 5 cəhddə təxmin etməyə çalışın:</p>
+
+    <div class="form">
+      <label >Təsadüfi rəqəmi daxil edin: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Təxmininizi daxil edin" class="guessSubmit">
+      
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script src="scripts/numberGame.js"> </script>
+
+
+  </body>
+</html>
